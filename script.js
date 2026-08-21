@@ -10,10 +10,10 @@ botonNo.addEventListener("mouseover", function(){
     if (intentos >=3) {
         
         const anchoPantalla = window.innerWidth;
-        const altoPanatalla = window.innerHeight;
+        const altoPantalla = window.innerHeight;
 
         const x = Math.random() * (anchoPantalla - botonNo.offsetWidth);
-        const y = Math.random() * (altoPanatalla - botonNo.offsetHeight);
+        const y = Math.random() * (altoPantalla - botonNo.offsetHeight);
 
         botonNo.style.position = "fixed";
         botonNo.style.left = x + "px";
@@ -43,10 +43,10 @@ botonNo.addEventListener("touchstart", function(event){
         event.preventDefault();
 
         const anchoPantalla = window.innerWidth;
-        const altoPanatalla = window.innerHeight;
+        const altoPantalla = window.innerHeight;
 
         const x = Math.random() * (anchoPantalla - botonNo.offsetWidth);
-        const y = Math.random() * (altoPanatalla - botonNo.offsetHeight);
+        const y = Math.random() * (altoPantalla - botonNo.offsetHeight);
 
         botonNo.style.position = "fixed";
         botonNo.style.left = x + "px";

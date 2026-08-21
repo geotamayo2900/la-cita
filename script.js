@@ -24,15 +24,15 @@ botonNo.addEventListener("mouseover", function(){
 botonNo.addEventListener("click", function(){
     intentos++;
     if (intentos === 1) {
-        titulo.textContent = "en serio no quieres? TwT 🥺😭";
+        titulo.textContent = "en serio no quieres?  🥺😭";
     }
 
     if (intentos === 2) {
-        titulo.textContent = "Porfavor porfavor acepta >n< 🥺";
+        titulo.textContent = "Porfavor porfavor acepta  🥺";
     }
 
     if (intentos === 3){
-        titulo.textContent = "pues ahora me aceptas -n- 😣";
+        titulo.textContent = "pues ahora me aceptas  😣";
     }
 });
 
@@ -55,12 +55,12 @@ botonNo.addEventListener("touchstart", function(event){
 });
 
 botonSi.addEventListener("click", function(){
-    titulo.textContent = "sabia que aceptarias jeje -w- 😏";
+    titulo.textContent = "sabia que aceptarias jeje  😏";
 
     botonSi.style.display = "none";
     botonNo.style.display = "none";
 
-    mensajeFinal.textContent = "Entonces tenemos una cita pendiente >w< 😘";
+    mensajeFinal.textContent = "Entonces tenemos una cita pendiente  😘";
 
     for (let i = 0; i < 20; i++) {
         crearCorazon();

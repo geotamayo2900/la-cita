@@ -48,7 +48,7 @@ botonNo.addEventListener("touchstart", function(event){
         const x = Math.random() * (anchoPantalla - botonNo.offsetWidth);
         const y = Math.random() * (altoPanatalla - botonNo.offsetHeight);
 
-        botonNO.style.position = "fixed";
+        botonNo.style.position = "fixed";
         botonNo.style.left = x + "px";
         botonNo.style.top = y + "px";
     }
